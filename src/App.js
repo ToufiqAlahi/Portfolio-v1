@@ -7,6 +7,7 @@ import Footer from './Pages/Footer';
 import Navbar from './Pages/Navbar';
 import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
+import SideNav from './Pages/SideNav';
 
 
 
@@ -14,9 +15,10 @@ function App() {
   return (
     <div>
       {/* <Navbar/> */}
+      {/* <SideNav/> */}
       <Intro/>
       <About/>
-      {/* <Skills/> */}
+      <Skills/>
       <Experiences/>
       <Projects/>
       <Contact/>
